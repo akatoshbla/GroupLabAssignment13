@@ -5,6 +5,7 @@
     android:background="@color/black"
     tools:context="comp380.grouplabassignment13.ImageActivity">
 
+    / HDPI file
     <ImageView
         android:id="@+id/picViewer"
         android:contentDescription="@string/picDesc"
