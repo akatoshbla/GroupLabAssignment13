@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- TextView at top of Screen to welcome users -->
     <TextView android:text="@string/pick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,12 +12,15 @@
         android:textSize="30sp"
         android:paddingLeft="@dimen/activity_horizontal_margin"/>
 
+    <!-- Button to take you to an image -->
     <Button
         android:id="@+id/imageButton"
         android:text="@string/imageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"/>
+
+    <!-- Button to take you to a streaming video -->
     <Button
         android:id="@+id/videoButton"
         android:text="@string/videoButton"

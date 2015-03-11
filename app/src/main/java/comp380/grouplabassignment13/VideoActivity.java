@@ -1,3 +1,6 @@
+//Group 1: David Kopp, Ibrahim Hayek, Edward Guerrero, Luis Guzman, Gerald Fairclough
+//Group Lab Assignment 13
+
 package comp380.grouplabassignment13;
 
 
@@ -16,6 +19,7 @@ import android.widget.VideoView;
 
 public class VideoActivity extends ActionBarActivity {
 
+    // Variable / Object Declarations
     ProgressDialog progressDialog;
     VideoView videoView;
 
@@ -35,14 +39,14 @@ public class VideoActivity extends ActionBarActivity {
         progressDialog.setTitle("Streaming Video");
         progressDialog.setMessage("Loading...");
         progressDialog.setIndeterminate(false);
-        progressDialog.setCancelable(false);
+        progressDialog.setCancelable(true);
         progressDialog.show();
 
-        // Can be in Try / Catch
+        // Can be in Try / Catch (This sets the MediaController to the videoView
         MediaController mediaController = new MediaController(VideoActivity.this);
         mediaController.setAnchorView(videoView);
 
-        // Try to Access website
+        // Try and catch to remove crash if site is not found Access website
         try {
             Uri video = Uri.parse(videoURL);
             videoView.setMediaController(mediaController);
@@ -52,6 +56,7 @@ public class VideoActivity extends ActionBarActivity {
             e.printStackTrace();
         }
 
+        // Setting the VideoView to start and dismissing the progressDialog
         videoView.requestFocus();
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
 

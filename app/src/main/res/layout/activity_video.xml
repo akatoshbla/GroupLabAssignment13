@@ -3,11 +3,12 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
-<VideoView
-    android:id="@+id/videoView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"/>
+    <!-- VideoView box to hold the streaming video -->
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
 
 </RelativeLayout>

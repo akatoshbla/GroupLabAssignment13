@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">GroupLabAssignment13</string>
+    <string name="app_name">Comp380: Group Lab Assignment13</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="pick">Pick a task to perform:</string>
     <string name="imageButton">Image Display</string>
     <string name="videoButton">Video Display</string>
-    <string name="title_activity_image">ImageActivity</string>
-    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_image">Hawaii 2013: North Shore - Turtle bay</string>
+    <string name="title_activity_video">The Hobbit: The Battle of the five Armies [Official Trailer]</string>
     <string name="picDesc">Hawaii 2013 North Shore - Turtle bay</string>
 </resources>

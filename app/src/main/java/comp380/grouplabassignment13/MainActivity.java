@@ -1,3 +1,6 @@
+//Group 1: David Kopp, Ibrahim Hayek, Edward Guerrero, Luis Guzman, Gerald Fairclough
+//Group Lab Assignment 13
+
 package comp380.grouplabassignment13;
 
 import android.content.Intent;
@@ -9,6 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
+    // Variable / Object Declarations
     Button but1;
     Button but2;
 
