@@ -20,7 +20,7 @@ public class VideoActivity extends ActionBarActivity {
     VideoView videoView;
 
     // URL String the battle of the 5 armies teaser
-    private static final String videoURL = "http://www.dailymotion.com/video/x2b3f6w_the-hobbit-the-battle-of-the-five-armies-official-teaser-trailer1-2014-peter-jackson-movie-hd-latest_shortfilms";
+    private static final String videoURL = "http://koppster.byethost7.com/th5aTrailer.3gp";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
